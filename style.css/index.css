@@ -94,10 +94,40 @@ ul li:first-child a{
     display: grid;
     grid-template-columns: repeat(4,1fr);
 }
+/* Flower plant style part */
+.flower-left img{
+    width: 100%;
+    height: 100%;
+
+}
+.icon{
+    position:relative;
+    top: -950px;
+    left: 100px;
+}
+
+.flower-plant{
+    display: flex;
+    margin-top: 150px;
+    
+}
+.flower-right h1{
+     font-size: 3.125rem;
+}
+.flower-right{
+    margin-left: 50px;
+}
+.flower-right ul li{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+
 
 
 /* Responsive for header part for mobile phone */
-@media  screen and (max-width:776px) {
+@media  screen and (max-width:576px) {
     
    .nav-list ul li:nth-child(1) a,
   .nav-list ul li:nth-child(2) a,
@@ -117,6 +147,7 @@ ul li:first-child a{
    }
    .plant-right{
     grid-template-columns: repeat(2,1fr);
+    margin-left: 10px;
    }
    .plant-left h1{
     font-size: 2rem;
@@ -129,6 +160,19 @@ ul li:first-child a{
     font-size: 16px;
 
 }
+.card{
+    width: 150px;
+    height: 340px;  
+      
+     
+}
+.flower-plant{
+    flex-direction: column;
+}
+.flower-left .icon{
+    display: none;
+}
+
 
     
 }
