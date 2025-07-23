@@ -1,6 +1,4 @@
 .container {
-
-  
   box-sizing: border-box;
   max-width: 1140px;
   margin: 0 auto;
@@ -11,15 +9,12 @@
 /* header part style */
 .nav-list ul{
     display: flex;
-    list-style: none;
-
-    
+    list-style: none;   
 }
 .nav-list a{
    text-decoration: none;
    color: rgba(161, 135, 151, 1);
    margin-left: 50px;
-   
 }
 .navigation-bar{
     display: flex;
@@ -44,6 +39,7 @@ ul li:first-child a{
 }
 .banner-left p{
     color: rgba(0, 0, 0, 0.5);
+    font-size: 22px;
 }
 .span{
     color: rgba(233, 90, 8, 1);
@@ -56,6 +52,48 @@ ul li:first-child a{
 }
 
 
+/* Our plant style part  */
+.our-plant{
+    margin-top: 120px;
+}
+.card{
+    width: 270px;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+     
+}
+.card h4{
+    margin: 5px;
+    font-size: 22px;
+    text-align: center;
+}
+.card img{
+    width: 100%;
+}
+.card button{
+    color: white;
+    background-color: rgba(233, 90, 8, 1);
+    padding: 16px 50px;
+    border:none;
+}
+
+.plant-left h1{
+    font-size: 3.125rem;
+    text-align: center;
+
+}
+.plant-left p{
+    
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    font-size: 22px;
+
+}
+.plant-right{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
 
 
 /* Responsive for header part for mobile phone */
@@ -75,6 +113,22 @@ ul li:first-child a{
   }
    .banner-left p{
     margin-left: 10px;
+    font-size: 16px;
    }
+   .plant-right{
+    grid-template-columns: repeat(2,1fr);
+   }
+   .plant-left h1{
+    font-size: 2rem;
+    text-align: center;
+
+}
+.plant-left p{
+    
+    text-align: center;
+    font-size: 16px;
+
+}
+
     
 }
