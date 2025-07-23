@@ -1,0 +1,80 @@
+.container {
+
+  
+  box-sizing: border-box;
+  max-width: 1140px;
+  margin: 0 auto;
+   font-family: "Noto Serif", serif;
+  
+}
+
+/* header part style */
+.nav-list ul{
+    display: flex;
+    list-style: none;
+
+    
+}
+.nav-list a{
+   text-decoration: none;
+   color: rgba(161, 135, 151, 1);
+   margin-left: 50px;
+   
+}
+.navigation-bar{
+    display: flex;
+    align-items: center;
+    
+    
+    justify-content: space-between;
+}
+img{
+    width: 100%;
+}
+
+ul li:first-child a{
+  color: black;
+  font-weight: bold;
+}
+/* banner part style */
+.banner-left h1{
+    font-size:4rem ;
+    font-weight: bold;
+    
+}
+.banner-left p{
+    color: rgba(0, 0, 0, 0.5);
+}
+.span{
+    color: rgba(233, 90, 8, 1);
+}
+.banner{
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+/* Responsive for header part for mobile phone */
+@media  screen and (max-width:776px) {
+    
+   .nav-list ul li:nth-child(1) a,
+  .nav-list ul li:nth-child(2) a,
+  .nav-list ul li:nth-child(3) a {
+    display: none;
+  }
+  .banner{
+    flex-direction: column-reverse;
+  }
+  .banner-left h1{
+    font-size: 1.5rem;
+    margin-left: 10px;
+  }
+   .banner-left p{
+    margin-left: 10px;
+   }
+    
+}
