@@ -150,11 +150,7 @@ ul li:first-child a{
      
     
 }
-.latest-right-overlay{
-    width: 750px;
-    height:423px ;
-    background-color: rgb(56, 49, 49);
-}
+
 
 .latest-right h4{
     margin: 10px;
@@ -260,6 +256,46 @@ footer{
   position: relative;
   left: -100px;
 }
+/* Foot part style here  */
+.foot-icon{
+    display: flex;
+    margin-top: 50px;
+}
+.foot-icon img{
+    height: 36px;
+    width: 36px;
+    margin-left: 30px;
+}
+.foot-list{
+    display: flex;
+}
+.foot-logo{
+    margin-top: 50px;
+}
+.foot-logo p{
+    font-size: 1.375rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+.foot-list ul{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.foot-list ul li{
+  margin-bottom: 50px;
+  list-style-type: none;
+  color: rgba(107, 114, 128, 1);
+}
+.foot-item{
+    display: flex;
+    margin: 0 160px;
+    gap: 100px;
+    
+}
+.foot-logo img{
+    width: 185px;
+    height: 82px;
+}
   
     
 
@@ -336,15 +372,20 @@ footer{
 }
 .latest-right{
     width: 100%;
-    margin: 10px;
+    height: 202px;
+     margin: 5px;
+     margin-top: 5px;
 }
+
 .img-1{
     width: 100%;
     margin: 5px;
+    margin-bottom: 5px;
 }
 .img-2{
     width: 100%;
     margin: 5px;
+    margin-bottom: 5px;
 }
 .colorful-img{
     width: 393px;
@@ -373,5 +414,43 @@ footer{
   position: relative;
   left: 10px;
 }
+.foot-item{
+    flex-direction: column;
+}
+.foot-list{
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+.foot-list ul{
+    margin-left:0px;
+    margin-top: 5px;
+    padding-left: 10px;
+    
+}
+.foot-logo p{
+    font-size:14px;
+    margin-left: 10px;
+    
+}
+.foot-item{
+    display: flex;
+    margin: 0 5px;
+    gap: 10px;
+    
   
+}
+.foot-list ul li{
+   margin-bottom: 20px;
+}
+.foot-icon{
+    
+    margin-top:1px;
+    width: 100%;
+}
+.foot-icon img{
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+}
 }
