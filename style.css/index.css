@@ -97,15 +97,30 @@ ul li:first-child a{
 
 /* Flower plant style part */
 
+
 .icon{
     position:relative;
     top: -750px;
     left: 300px;
-}
-.icon{
     height: 300px;
-    width: 350px;
+    width: 300px;
+     transform-origin: center center;
+     animation: spin 2s  linear   infinite  ;
 }
+    
+@keyframes spin {
+     from{
+        transform: rotate(0deg);
+    }
+    
+    to{
+        transform: rotate(360deg);
+    }
+    
+}
+
+
+
 
 .flower-plant{
     display: flex;
