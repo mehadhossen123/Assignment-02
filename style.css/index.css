@@ -94,6 +94,7 @@ ul li:first-child a{
     display: grid;
     grid-template-columns: repeat(4,1fr);
 }
+
 /* Flower plant style part */
 
 .icon{
@@ -122,8 +123,97 @@ ul li:first-child a{
     font-size: 22px;
     margin-bottom: 5px;
 }
+/* Latest deals part style  */
+.latest-bg{
+    display: flex;
+    gap: 20px;
+}
+
+.latest-deals h1{
+  font-size: 50px;
+    text-align: center;
+}
+.latest-deals p{
+  font-size: 22px;
+  color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+.latest-right{
+    background-image: url('../image/deal-zabo.png');
+    width: 750px;
+    height: 423px;
+     border-radius: 10px;
+     background-size: cover;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     
+    
+}
+.latest-right-overlay{
+    width: 750px;
+    height:423px ;
+    background-color: rgb(56, 49, 49);
+}
+
+.latest-right h4{
+    margin: 10px;
+}
+hr{
+    border: 2px solid white;
+    width: 40%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.img-1{
+    background-image: url('../image/deal-ana.png');
+     width: 367px;
+    height: 202px;
+    margin-bottom: 20px;
+     border-radius: 8px;
+      display: flex;
+     justify-content: center;
+     align-items: center;
+     
+}
+.img-2{
+    background-image: url('../image/deal-bloom.png');
+    width: 367px;
+    height: 202px;
+    border-radius: 8px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     
+}
+ .latest-left,.img-1 h4 {
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    margin: 5px;
+
+}
+ .latest-left,.img-2 h4 {
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    margin: 5px;
+
+}
 
 
+.latest-right h1{
+    font-size: 50px;
+    color: white;
+    line-height: 30px;
+}
+.latest-right h4{
+    font-size: 28px;
+    color: white;
+    text-align: center;
+    line-height: 10px;
+}
 
 
 /* Responsive for header part for mobile phone */
@@ -172,6 +262,39 @@ ul li:first-child a{
 .flower-left .icon{
     display: none;
 }
+.flower-right h1{
+     font-size: 1.5rem;
+}
+.flower-right{
+    margin-left: 10px;
+}
+.flower-right ul li{
+    
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.latest-deals h1{
+  font-size: 24px;
+    text-align: center;
+}
+.latest-deals p{
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+.latest-bg{
+    flex-direction: column;
+}
+.latest-right{
+    width: 100%;
+}
+.img-1{
+    width: 100%;
+}
+.img-2{
+    width: 100%;
+}
+
 
 
     
