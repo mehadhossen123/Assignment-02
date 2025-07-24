@@ -214,6 +214,55 @@ hr{
     text-align: center;
     line-height: 10px;
 }
+/* Colorful bunch style part  */
+
+footer{
+
+    margin: 0 auto;
+  max-width: 1440px;
+  margin-top: 120px;
+}
+   
+.colorful-img{
+    background-image: url('../image/news-letter-bg.png');
+    
+     height: 573px;
+         background-position: center;
+         background-size: cover;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+      
+      
+}
+.colorful-img h3{
+    color: white;
+    font-size: 40px;
+    margin: 20px;
+}
+
+  .colorful-title button{
+    background-color: rgba(233, 90, 8, 1);
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    position: relative;
+    left: -4px;
+
+  }  
+  .colorful-title input{
+    padding: 10px 120px;
+
+  }  
+ .colorful-title input::placeholder {
+  color: #888;
+  font-style: italic;
+  position: relative;
+  left: -100px;
+}
+  
+    
+
 
 
 /* Responsive for header part for mobile phone */
@@ -287,15 +336,42 @@ hr{
 }
 .latest-right{
     width: 100%;
+    margin: 10px;
 }
 .img-1{
     width: 100%;
+    margin: 5px;
 }
 .img-2{
     width: 100%;
+    margin: 5px;
+}
+.colorful-img{
+    width: 393px;
+    height: 276px;
+    gap: 10px;
 }
 
-
-
+.colorful-title input{
+    padding: 10px 50px;
     
+}
+ .colorful-title button{
+    
+    padding: 10px 15px;
+
+  } 
+  .colorful-img h3{
+    color: white;
+    font-size: 22px;
+    margin: 10px;
+    text-align: center;
+} 
+.colorful-title input::placeholder {
+  color: #888;
+  font-style: italic;
+  position: relative;
+  left: 10px;
+}
+  
 }
